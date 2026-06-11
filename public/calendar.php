@@ -16,15 +16,15 @@ $events = [
         'title' => 'Rangitoto',
         'location' => 'Rangitoto',
         'distance' => '17 Kms',
-        'details' => "Ferry-based day trip with volcanic trails and harbour views.\nBring water, snacks, and gear for exposed conditions.\nPost-run food stop planned before heading home.",
+        'details' => "Private boats to Rangitoto and a BBQ Lunch",
     ],
     [
-        'date' => 'Thursday',
-        'time' => '6:00 AM',
-        'title' => 'Easy sunrise run',
-        'location' => 'Main beach kiosk',
-        'distance' => '6-8 km',
-        'details' => "Short local shakeout before the next away trip.\nEasy effort with regroup points.\nCoffee afterwards if the group has time.",
+        'date' => 'October 2026',
+        'time' => '2 Days',
+        'title' => 'Tongariro northern circuit ',
+        'location' => 'Whakapapa',
+        'distance' => '37kms',
+        'details' => "This is the big one",
     ],
 ];
 require __DIR__ . '/../includes/header.php';
