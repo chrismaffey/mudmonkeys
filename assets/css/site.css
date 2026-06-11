@@ -1,0 +1,53 @@
+:root {
+    --mud: #4a3222;
+    --moss: #496d3d;
+    --clay: #c27b35;
+    --cream: #f5eddc;
+    --ink: #1f1c18;
+}
+
+body {
+    background: var(--cream);
+    color: var(--ink);
+}
+
+.navbar-brand {
+    letter-spacing: 0.04em;
+    text-transform: lowercase;
+}
+
+.hero-section {
+    background:
+        linear-gradient(90deg, rgba(31, 28, 24, 0.9), rgba(31, 28, 24, 0.55)),
+        radial-gradient(circle at 80% 20%, rgba(194, 123, 53, 0.6), transparent 30%),
+        linear-gradient(135deg, var(--mud), var(--moss));
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.join-panel {
+    background: linear-gradient(135deg, rgba(194, 123, 53, 0.22), rgba(73, 109, 61, 0.18));
+    border: 1px solid rgba(74, 50, 34, 0.16);
+}
+
+.page-header {
+    background:
+        linear-gradient(135deg, rgba(74, 50, 34, 0.92), rgba(73, 109, 61, 0.86)),
+        repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.08) 0 2px, transparent 2px 12px);
+}
+
+.event-card {
+    transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1rem 2rem rgba(31, 28, 24, 0.14) !important;
+}
+
+.site-footer {
+    background: var(--ink);
+    color: rgba(255, 255, 255, 0.76);
+}
