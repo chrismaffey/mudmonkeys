@@ -17,5 +17,5 @@ jobs:
           proxy_username: githubproxy
           username: mudmonkeys
           key: ${{ secrets.DEPLOY_KEY }}
-          script: /home/mudmonkeys/mudmonkeys/deploy.sh
+          script: /home/mudmonkeys/project/deploy.sh
 

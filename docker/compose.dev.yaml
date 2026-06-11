@@ -1,0 +1,15 @@
+# File: `docker-compose.yaml`
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: mudmonkeys
+    ports:
+      - "8013:80"
+    environment:
+      - TZ=pacific/Auckland
+    volumes:
+      - ../public:/var/www/html
+      - ../includes:/var/www/includes
+      - ../assets:/var/www/html/assets
