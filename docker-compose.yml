@@ -1,6 +1,13 @@
 services:
-  web:
+  mudmonkeys:
     build: .
+    container_name: mudmonkeys
+    restart: unless-stopped
+    user: "${UID}:${GID}"
+    environment:
+      - TZ=Pacific/Auckland
+    env_file:
+      - ../.env
     volumes:
       - ./public:/var/www/html
       - ./includes:/var/www/includes
