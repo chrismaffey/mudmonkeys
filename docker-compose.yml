@@ -14,3 +14,9 @@ services:
       - traefik.http.routers.${APP_NAME}-secure.rule=Host(`${APP_DOMAIN}`)  || Host(`www.${APP_DOMAIN}`)
       - traefik.http.routers.${APP_NAME}-secure.entrypoints=websecure
       - traefik.http.routers.${APP_NAME}-secure.middlewares=common@docker
+
+
+
+networks:
+  web:
+    external: true
