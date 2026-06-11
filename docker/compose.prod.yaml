@@ -12,9 +12,9 @@ services:
     env_file:
       - ../.env
     volumes:
-      - ./public:/var/www/html
-      - ./includes:/var/www/includes
-      - ./assets:/var/www/html/assets
+      - ../public:/var/www/html
+      - ../includes:/var/www/includes
+      - ../assets:/var/www/html/assets
     networks:
       - web
     labels:
