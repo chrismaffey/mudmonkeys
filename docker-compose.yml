@@ -7,7 +7,7 @@ services:
     environment:
       - TZ=Pacific/Auckland
     env_file:
-      - ../.env
+      - .env
     volumes:
       - ./public:/var/www/html
       - ./includes:/var/www/includes
