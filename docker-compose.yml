@@ -1,8 +1,6 @@
 services:
   web:
     build: .
-    ports:
-      - "80:80"
     volumes:
       - ./public:/var/www/html
       - ./includes:/var/www/includes
