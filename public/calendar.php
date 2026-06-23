@@ -2,6 +2,14 @@
 $pageTitle = 'Calendar';
 $currentPage = 'calendar';
 $events = [
+        [
+                'date' => 'July 2026',
+                'time' => 'Day trip or one night',
+                'title' => 'Annual General Meeting',
+                'location' => 'Pinnacles Hut Coromandel',
+                'distance' => '15kms return.  Steep and technical',
+                'details' => "Climb to the top of the Pinnacles Track for the AGM and a couple of drinks.",
+        ],
     [
         'date' => 'December 2026',
         'time' => '2 nights',
