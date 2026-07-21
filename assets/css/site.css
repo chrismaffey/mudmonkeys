@@ -73,6 +73,91 @@ body {
     filter: drop-shadow(0 1rem 1rem rgba(31, 28, 24, 0.2));
 }
 
+.club-details {
+    background: rgba(255, 255, 255, 0.36);
+    border-top: 1px solid rgba(74, 50, 34, 0.1);
+}
+
+.details-card {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(74, 50, 34, 0.14);
+    box-shadow: 0 0.75rem 2rem rgba(31, 28, 24, 0.08);
+}
+
+.details-card-bank {
+    background:
+        linear-gradient(145deg, rgba(73, 109, 61, 0.13), transparent 62%),
+        rgba(255, 255, 255, 0.8);
+    border-top: 4px solid var(--moss);
+}
+
+.details-kicker {
+    color: var(--moss);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.details-list > div {
+    padding: 1rem 0;
+    border-top: 1px solid rgba(74, 50, 34, 0.12);
+}
+
+.details-list dt {
+    margin-bottom: 0.3rem;
+    color: rgba(31, 28, 24, 0.6);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.details-list dd {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.details-list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+}
+
+.account-number {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 1.1rem !important;
+    letter-spacing: 0.02em;
+    overflow-wrap: anywhere;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.45rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(73, 109, 61, 0.14);
+    color: #315328;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.status-badge::before {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--moss);
+    content: "";
+}
+
+@media (max-width: 767.98px) {
+    .details-list-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .event-card {
     transition: transform 160ms ease, box-shadow 160ms ease;
 }
