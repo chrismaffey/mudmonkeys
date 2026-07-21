@@ -5,7 +5,8 @@ A small vanilla PHP website for the mudmonkeys running group.
 ## Pages
 
 - Home: `/`
-- Calendar: `/calendar.php`
+- Calendar: `/calendar`
+- About: `/about`
 
 ## Run with Docker
 

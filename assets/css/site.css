@@ -16,6 +16,24 @@ body {
     text-transform: lowercase;
 }
 
+.navbar-logo {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.3));
+}
+
+@media (max-width: 575.98px) {
+    .navbar-logo {
+        width: 44px;
+        height: 44px;
+    }
+
+    .navbar-brand span {
+        font-size: 1rem;
+    }
+}
+
 .hero-section {
     background:
         linear-gradient(90deg, rgba(31, 28, 24, 0.9), rgba(31, 28, 24, 0.55)),
@@ -36,6 +54,23 @@ body {
     background:
         linear-gradient(135deg, rgba(74, 50, 34, 0.92), rgba(73, 109, 61, 0.86)),
         repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.08) 0 2px, transparent 2px 12px);
+}
+
+.about-logo-panel {
+    background:
+        radial-gradient(circle, rgba(194, 123, 53, 0.2), transparent 62%),
+        rgba(255, 255, 255, 0.42);
+    border: 1px solid rgba(74, 50, 34, 0.14);
+}
+
+.about-logo {
+    display: block;
+    width: 256px;
+    height: 256px;
+    max-width: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+    filter: drop-shadow(0 1rem 1rem rgba(31, 28, 24, 0.2));
 }
 
 .event-card {

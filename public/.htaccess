@@ -1,0 +1,18 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Redirect the old PHP URLs to their canonical extensionless routes.
+RewriteCond %{THE_REQUEST} \s/+index\.php[?\s] [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+calendar\.php[?\s] [NC]
+RewriteRule ^calendar\.php$ /calendar [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+about\.php[?\s] [NC]
+RewriteRule ^about\.php$ /about [R=301,L]
+
+# Serve real assets directly and send every other request to the router.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]

@@ -12,4 +12,5 @@ services:
     volumes:
       - ../public:/var/www/html
       - ../includes:/var/www/includes
+      - ../controllers:/var/www/controllers
       - ../assets:/var/www/html/assets
