@@ -36,6 +36,12 @@ $renderContent = $page['renderContent'];
                 <li class="nav-item">
                     <a class="nav-link <?= $currentPage === 'about' ? 'active' : '' ?>" <?= $currentPage === 'about' ? 'aria-current="page"' : '' ?> href="/about">About</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?= $currentPage === 'join' ? 'active' : '' ?>" <?= $currentPage === 'join' ? 'aria-current="page"' : '' ?> href="/join">Join</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?= $currentPage === 'contact' ? 'active' : '' ?>" <?= $currentPage === 'contact' ? 'aria-current="page"' : '' ?> href="/contact">Contact</a>
+                </li>
             </ul>
         </div>
     </div>

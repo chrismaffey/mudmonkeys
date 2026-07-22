@@ -10,6 +10,8 @@ $routes = [
     '/' => __DIR__ . '/../controllers/index.php',
     '/calendar' => __DIR__ . '/../controllers/calendar.php',
     '/about' => __DIR__ . '/../controllers/about.php',
+    '/join' => __DIR__ . '/../controllers/join.php',
+    '/contact' => __DIR__ . '/../controllers/contact.php',
 ];
 
 $controller = $routes[$requestPath] ?? __DIR__ . '/../controllers/404.php';

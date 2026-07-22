@@ -9,6 +9,8 @@ services:
       - "8013:80"
     environment:
       - TZ=pacific/Auckland
+    env_file:
+      - ../.env
     volumes:
       - ../public:/var/www/html
       - ../includes:/var/www/includes

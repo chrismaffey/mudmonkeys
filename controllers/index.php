@@ -10,13 +10,14 @@ return [
         <section class="hero-section text-white">
             <div class="container py-5">
                 <div class="row align-items-center min-vh-75 py-lg-5">
-                    <div class="col-lg-7">
+                    <div class="col-lg-8">
                         <span class="badge rounded-pill text-bg-warning mb-3">Out of town running trips</span>
-                        <h1 class="display-3 fw-bold lh-1 mb-4">Pack the shoes. Chase the next trail.</h1>
+                        <h1 class="display-3 fw-bold lh-1 mb-4">Pack the shoes. </h1>
+                        <h2 class="display-5 fw-bold mb-4">Chase the next adventure.</h2>
                         <p class="lead mb-4">Mud monkeys is a running crew built around weekends away, road trips, trail missions, and discovering new places to run.</p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
                             <a href="/calendar" class="btn btn-warning btn-lg fw-semibold">View upcoming trips</a>
-                            <a href="#join" class="btn btn-outline-light btn-lg">How to join</a>
+                            <a href="/join" class="btn btn-outline-light btn-lg">How to join</a>
                         </div>
                     </div>
                 </div>
@@ -60,7 +61,7 @@ return [
                         <p class="mb-0">Start with a shorter trip or a social weekend away. Each calendar listing includes the destination, route style, and what you need to know before committing.</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a class="btn btn-dark btn-lg" href="/calendar">Find a trip</a>
+                        <a class="btn btn-dark btn-lg" href="/join">How to join</a>
                     </div>
                 </div>
             </div>

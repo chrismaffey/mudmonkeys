@@ -23,11 +23,27 @@ return [
                 </div>
                 <div class="col-lg-7">
                     <span class="badge rounded-pill text-bg-warning mb-3">Our crew</span>
-                    <h2 class="display-6 fw-bold mb-4">Good trails are better shared.</h2>
-                    <p class="lead">Mud Monkeys brings runners together for out-of-town adventures, trail weekends, and memorable days on foot.</p>
+                    <h2 class="display-6 fw-bold mb-4">Good running adventures are better shared.</h2>
+                    <p class="lead">Mud Monkeys is an Auckland based running club that brings runners together for out-of-town adventures, trail weekends, and memorable days on foot.</p>
                     <p>We choose interesting destinations, plan the important details, and make it easier to get beyond the usual local loop. The focus is simple: explore new places, enjoy the company, and come home with a little more mud on the shoes.</p>
-                    <p class="mb-4">Trips vary in distance and difficulty, so check the calendar listing before committing and choose an adventure that suits your experience.</p>
+                    <p class="mb-4">Trips vary in distance and difficulty, so check the calendar listing before committing and choose an adventure that suits your experience.
+
+
+                    </p>
                     <a class="btn btn-dark btn-lg" href="/calendar">Explore upcoming trips</a>
+                </div>
+            </div>
+            <div class="row align-items-center g-5 mt-4">
+                <div class="col-lg-5">
+
+                </div>
+                <div class="col-lg-7">
+
+
+                    <h3 class=" fw-bold mb-4 mt-4">Why start a new running club and incorporated society?</h3>
+                    <p>There are plenty of great running clubs and groups around Auckland who organise regular weekly group runs.</p>
+                    <p>We wanted to create a community for runners who enjoy exploring new places and sharing memorable experiences beyond the weekly group run.</p>
+                    <p>By forming an incorporated society, we can organize trips more effectively, spread the load for the organisers, and provide a structured environment for our members.</p>
                 </div>
             </div>
         </section>
