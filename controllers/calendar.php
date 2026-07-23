@@ -4,11 +4,11 @@ declare(strict_types=1);
 $events = [
         [
                 'date' => '8th August 2026',
-                'time' => 'Day trip.  Leave Auckland 7:30am',
+                'time' => 'Day trip',
                 'title' => 'Annual General Meeting',
                 'location' => 'Pinnacles Hut Coromandel',
                 'distance' => '15kms return. Steep and technical',
-                'details' => 'Climb to the top of the Pinnacles Track for the AGM and a couple of drinks.',
+                'details' => '  Leave Auckland 7:30am.  Car pool to Coromandel. Climb to the top of the Pinnacles Track for the AGM and a couple of drinks.',
         ],
         [
                 'date' => 'December 2026',
@@ -58,9 +58,12 @@ return [
                                     <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
                                         <div>
                                             <span class="badge text-bg-success mb-2"><?= htmlspecialchars($event['date'], ENT_QUOTES, 'UTF-8') ?></span>
-                                            <h2 class="h4 mb-0"><?= htmlspecialchars($event['title'], ENT_QUOTES, 'UTF-8') ?></h2>
+
                                         </div>
                                         <span class="fw-bold text-nowrap"><?= htmlspecialchars($event['time'], ENT_QUOTES, 'UTF-8') ?></span>
+                                    </div>
+                                    <div class="d-flex  gap-3 mb-3">
+                                        <h2 class="h4 mb-0"><?= htmlspecialchars($event['title'], ENT_QUOTES, 'UTF-8') ?></h2>
                                     </div>
                                     <dl class="row small mb-3">
                                         <dt class="col-4">Location</dt>
@@ -83,8 +86,10 @@ return [
                             <h2 class="h3 fw-bold mb-0">Sound a little too serious?</h2>
                         </div>
                         <div class="col-lg-8">
-                            <p class="lead mb-2">Wherever possible, we accommodate different skill levels and preferences.</p>
-                            <p class="mb-0">Many trips include a shorter run option, so you can choose what suits you and still join the fun and social time.</p>
+                            <p class="lead mb-2">Wherever possible, we accommodate different skill levels and
+                                preferences.</p>
+                            <p class="mb-0">Many trips include a shorter run option, so you can choose what suits you
+                                and still join the fun and social time.</p>
                         </div>
                     </div>
                 </aside>
