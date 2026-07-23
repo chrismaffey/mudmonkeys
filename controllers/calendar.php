@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 $events = [
         [
-                'date' => 'July 2026',
-                'time' => 'Day trip or one night',
+                'date' => '8th August 2026',
+                'time' => 'Day trip.  Leave Auckland 7:30am',
                 'title' => 'Annual General Meeting',
                 'location' => 'Pinnacles Hut Coromandel',
                 'distance' => '15kms return. Steep and technical',
