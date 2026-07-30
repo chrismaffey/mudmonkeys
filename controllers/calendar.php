@@ -11,12 +11,16 @@ $events = [
                 'details' => '  Leave Auckland 7:30am.  Car pool to Coromandel. Climb to the top of the Pinnacles Track for the AGM and a couple of drinks.',
         ],
         [
-                'date' => 'December 2026',
+                'date' => '11 - 13 December 2026',
                 'time' => '2 nights',
                 'title' => 'Timber Trail',
                 'location' => 'Central North Island',
                 'distance' => '42km on Saturday and Sunday',
-                'details' => "Weekend away with two days on the trail.\nAccommodation and transport details to be confirmed.\nSuitable for runners comfortable with long back-to-back days.",
+                'details' => "Weekend away with two days on the trail.\nAccommodation in Taumarunui on Friday and Camp Epic.
+                Suitable for runners comfortable with long back-to-back days.
+                Costs include carpooling from Auckland, 2 nights accommodation, Dinner on Friday and Saturday.  Breakfast on Saturday and Sunday.
+                Bring your own snacks and lunch. 
+                You must carry compulsory gear (to be advised).  Also 4 litres of water, it is hot in December, 42kms and no water supply ",
         ],
         [
                 'date' => 'December 2026',
