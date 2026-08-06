@@ -11,6 +11,14 @@ $events = [
                 'details' => '  Leave Auckland 7:30am.  Car pool to Coromandel. Climb to the top of the Pinnacles Track for the AGM and a couple of drinks.',
         ],
         [
+                'date' => '13 - 15 November 2026',
+                'time' => '2 nights',
+                'title' => 'Tongariro northern circuit',
+                'location' => 'Whakapapa',
+                'distance' => '37kms',
+                'details' => 'This is the big one',
+        ],
+        [
                 'date' => '11 - 13 December 2026',
                 'time' => '2 nights',
                 'title' => 'Timber Trail',
@@ -23,7 +31,7 @@ $events = [
                 You must carry compulsory gear (to be advised).  Also 4 litres of water, it is hot in December, 42kms and no water supply ",
         ],
         [
-                'date' => 'December 2026',
+                'date' => '20 December 2026',
                 'time' => 'Long day out',
                 'title' => 'Rangitoto',
                 'location' => 'Rangitoto',
