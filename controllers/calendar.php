@@ -38,14 +38,6 @@ $events = [
                 'distance' => '17 Kms',
                 'details' => 'Private boats to Rangitoto and a BBQ Lunch',
         ],
-        [
-                'date' => 'October 2026',
-                'time' => '2 Days',
-                'title' => 'Tongariro northern circuit',
-                'location' => 'Whakapapa',
-                'distance' => '37kms',
-                'details' => 'This is the big one',
-        ],
 ];
 
 return [
