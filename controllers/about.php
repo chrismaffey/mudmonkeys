@@ -109,7 +109,7 @@ return [
                                 </div>
                             </dl>
                             <div class="pt-4 mt-2 border-top">
-                                <a class="btn btn-outline-success fw-semibold" href="https://app.businessregisters.govt.nz/sber-businesses/viewInstance/view.html?id=229a78e05307b6d8bf1b29667f00cb175a4e9d3dd2114bba0d64c6e38bb043d3&amp;_timestamp=9021358801834799" target="_blank" rel="noopener noreferrer">
+                                <a class="btn btn-outline-success fw-semibold" href="http://localhost/about" target="_blank" rel="noopener noreferrer">
                                     View Companies Office Record <span aria-hidden="true">&#8599;</span>
                                     <span class="visually-hidden"> (opens in a new tab)</span>
                                 </a>
